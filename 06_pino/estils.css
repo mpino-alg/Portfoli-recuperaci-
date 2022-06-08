@@ -1,0 +1,102 @@
+body{
+  background-color:
+}
+
+
+#CABECERA{
+  background-color: #FFF;
+  height: 40px;
+  background-image: url(img/feedly-logo-small-black.png);
+  background-position: 5px
+}
+
+div{
+  background-repeat: no-repeat;
+  background-position: 400px;
+}
+
+h1{
+  text-align: center;
+  font-family: helvetica;
+  width: 375px;
+  margin-left: 25px;
+  margin: 0px
+}
+
+p{
+  font-family: helvetica;
+  width: 375px;
+  margin-left: 25px;
+  color: #666;
+}
+
+ul{
+  text-align: right;
+  margin-top: 0px
+}
+
+li{
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 10px
+}
+
+#CONEIX{
+  background-color: #6C3;
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#TOT{
+  background-color: #FFF;
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+}
+
+#UTIL{
+  background-color: #333333;
+  height: 500px;
+  background-image: url(img/curator-short.png);
+  color: #CCC;
+}
+
+#RAPID{
+  background-color: #EEECEE;
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#FACIL{
+  background-color: #6C3;
+  height: 550px;
+  background-image: url(img/mobile-share.png);
+}
+
+#ARREU{
+  background-color: #EEECEE;
+  height: 643px;
+  background-image: url(img/anywhere.png);
+}
+
+#PEUS{
+  height: 200px;
+  background-color: #333333;
+  background-image: url(img/googleplay.png);
+  background-position: top; <
+}
+
+#Arriba{
+  border-radius: 50%;
+  background: none;
+  background-color: #86F8AA;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+  float: right;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  line-height: 200px;
+}
