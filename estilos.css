@@ -1,0 +1,42 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body{
+  background-color: #8FDED1;
+}
+
+#head{
+  width: 100%;
+  height: 200px;
+  background-color: #00A85E;
+}
+
+#contenedor{
+  width:1000px;
+  height: 550px;
+  background-color: #51C138;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.enlace{
+  width: 120px;
+  height:120px;
+  border-radius: 50%;
+  background-color: #307CDD;
+  float: left;
+  margin: 60px;
+}
+
+p{
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: #73FFB4;
+}
