@@ -1,0 +1,127 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body{
+  background: #A9FFFE
+}
+
+.cara{
+  height: 600px;
+  width: 500px;
+  background: #E9CA86;
+  border-radius:51% 49% 49% 51% / 39% 39% 61% 61%;
+  position: relative;
+  top: 200px;
+}
+
+.ojos{
+  width: 400px;
+  height: 150px;
+  position: absolute;
+  margin-left: 50px;
+  top: 150px;
+}
+
+.ojo{
+  height: 90px;
+  width: 120px;
+  border-radius: 48% 52% 49% 51% / 50% 47% 53% 50%;
+  background-color: #FFFFFF;
+  margin: 40px;
+  left: 10px;
+  float: left;
+}
+
+.pupila{
+  margin:0 auto;
+  width:70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.ceja{
+  height: 30px;
+  width: 150px;
+  background-color: black;
+  position: relative;
+  bottom: 650px;
+  left: 53px;
+  float: left;
+}
+
+.ceja.izquierda{
+  border-radius: 67% 33% 0% 100% / 100% 0% 100% 0%;
+}
+
+.ceja.derecha{
+  clip-path: polygon(100% 68%, 48% 35%, 1% 66%, 0 43%, 47% 18%, 100% 63%);
+  height: 200px;
+  position: relative;
+  bottom: 740px;
+  margin-left: 80px;
+}
+
+.nariz{
+  height: 200px;
+  width: 200px;
+  background-color: #C6A357 ;
+  clip-path: polygon(45% 8%, 29% 69%, 81% 73%, 42% 91%, 11% 69%);
+  position: relative;
+  left: 20px;
+  bottom: 570px;
+}
+
+.labio{
+  height: 40px;
+  width:200px;
+  background-color: #E8B982;
+  position: relative;
+  bottom: 565px;
+}
+
+.labio.arriba{
+  border-bottom: 3px solid black;
+  clip-path: polygon(100% 86%, 66% 53%, 48% 60%, 29% 54%, 0 87%, 47% 94%);
+}
+
+.labio.abajo{
+  border-top: 5px solid #F9BA87;
+  clip-path: polygon(98% 45%, 0 45%, 9% 84%, 37% 95%, 67% 94%, 91% 83%);
+  height: 80px;
+  position: relative;
+  bottom: 610px;
+}
+
+.pelo{
+  width: 830px;
+  height: 800px;
+  background-color: black;
+  clip-path: polygon(84% 38%, 81% 51%, 78% 68%, 75% 49%, 72% 45%, 67% 47%, 63% 37%, 55% 45%, 48% 39%, 41% 42%, 36% 37%, 39% 47%, 31% 40%, 31% 47%, 26% 47%, 22% 45%, 23% 52%, 21% 54%, 20% 70%, 17% 55%, 14% 45%, 11% 34%, 16% 26%, 14% 19%, 26% 23%, 36% 16%, 51% 19%, 69% 17%, 81% 27%);
+  position: relative;
+  right: 155px;
+  bottom: 230px;
+}
+
+.cuello{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 600px;
+  background-color: #E9CA86
+}
+
+.camiseta{
+  height: 1500px;
+  width: 1500px;
+  background-image: url(img/laroca.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(57% 29%, 56% 33%, 45% 33%, 44% 29%, 21% 32%, 17% 46%, 30% 51%, 30% 45%, 32% 61%, 35% 94%, 67% 94%, 71% 60%, 72% 44%, 73% 52%, 85% 45%, 81% 31%);
+  position: relative;
+  bottom: 1100px;
+  right: 509px;
+}
