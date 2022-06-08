@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: green;
+}
+
+.contenedor{
+  width: 500px;
+  height: 500px;
+  background-color: lightgreen;
+  margin:0 auto;
+}
+
+.tronco{
+  width: 10px;
+  height: 200px;
+  background-color: #32FF00;
+  position: relative;
+  top:300px;
+  left: 250px;
+}
+
+.cabeza{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  position: relative;
+  left: 255px;
+  top: 90px;
+  animation: pedro 1s infinite linear;
+}
+
+@keyframes pedro {
+  0%{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.petalo{
+  height: 100px;
+  width: 70px;
+  background-color: pink;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+}
+
+.petalo.uno{
+  position: relative;
+  bottom: 95px;
+  left: 15px;
+}
+
+.petalo.tres{
+  position: relative;
+  bottom: 185px;
+  right: 65px;
+}
+
+.petalo.dos{
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+  position:relative;
+  bottom: 195px;
+  right: 65px;
+}
+
+.petalo.cuatro{
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
+  position: relative;
+  bottom: 285px;
+  left: 15px;
+}
